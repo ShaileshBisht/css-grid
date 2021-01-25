@@ -16,10 +16,42 @@ import img12 from "../assets/images/img12.jpg";
 function CssGrid() {
   return (
     <div className="CssGrid">
-      <h1>i am CssGrid component</h1>
       <div className="CssGrid_img">
         <div className="img_container">
           <img src={img1} alt="" />
+        </div>
+        <div className="img_container">
+          <img src={img2} alt="" />
+        </div>
+        <div className="img_container">
+          <img src={img3} alt="" />
+        </div>
+        <div className="img_container">
+          <img src={img4} alt="" />
+        </div>
+        <div className="img_container">
+          <img src={img5} alt="" />
+        </div>
+        <div className="img_container">
+          <img src={img6} alt="" />
+        </div>
+        <div className="img_container">
+          <img src={img7} alt="" />
+        </div>
+        <div className="img_container">
+          <img src={img8} alt="" />
+        </div>
+        <div className="img_container">
+          <img src={img9} alt="" />
+        </div>
+        <div className="img_container">
+          <img src={img10} alt="" />
+        </div>
+        <div className="img_container">
+          <img src={img11} alt="" />
+        </div>
+        <div className="img_container">
+          <img src={img12} alt="" />
         </div>
       </div>
     </div>
