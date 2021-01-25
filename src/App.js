@@ -1,9 +1,10 @@
 import "./App.css";
+import CssGrid from "./component/CssGrid";
 
 function App() {
   return (
     <div className="app">
-      <h1>lets go</h1>
+      <CssGrid />
     </div>
   );
 }
