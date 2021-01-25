@@ -17,10 +17,10 @@ function CssGrid() {
   return (
     <div className="CssGrid">
       <div className="CssGrid_img">
-        <div className="img_container">
+        <div className="img_container img1 ">
           <img src={img1} alt="" />
         </div>
-        <div className="img_container">
+        <div className="img_container ">
           <img src={img2} alt="" />
         </div>
         <div className="img_container">
