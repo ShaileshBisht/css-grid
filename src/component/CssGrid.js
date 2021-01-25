@@ -20,37 +20,37 @@ function CssGrid() {
         <div className="img_container img1 ">
           <img src={img1} alt="" />
         </div>
-        <div className="img_container ">
+        <div className="img_container img2">
           <img src={img2} alt="" />
         </div>
-        <div className="img_container">
+        <div className="img_container img3">
           <img src={img3} alt="" />
         </div>
-        <div className="img_container">
+        <div className="img_container img4">
           <img src={img4} alt="" />
         </div>
-        <div className="img_container">
+        <div className="img_container img5">
           <img src={img5} alt="" />
         </div>
-        <div className="img_container">
+        <div className="img_container img6">
           <img src={img6} alt="" />
         </div>
-        <div className="img_container">
+        <div className="img_container img7">
           <img src={img7} alt="" />
         </div>
-        <div className="img_container">
+        <div className="img_container img8">
           <img src={img8} alt="" />
         </div>
-        <div className="img_container">
+        <div className="img_container img9">
           <img src={img9} alt="" />
         </div>
-        <div className="img_container">
+        <div className="img_container img10">
           <img src={img10} alt="" />
         </div>
-        <div className="img_container">
+        <div className="img_container img11">
           <img src={img11} alt="" />
         </div>
-        <div className="img_container">
+        <div className="img_container img12">
           <img src={img12} alt="" />
         </div>
       </div>
