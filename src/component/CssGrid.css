@@ -43,3 +43,9 @@ img {
 .img11 {
   grid-column: span 5;
 }
+
+@media only screen and (max-width: 1249px) {
+  .img10 {
+    grid-row: span 2;
+  }
+}
