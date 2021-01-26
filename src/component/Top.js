@@ -4,7 +4,9 @@ import "./Top.css";
 function Top() {
   return (
     <div className="top">
-      <div className="top_title"></div>
+      <div className="top_title">
+        <h1>Grid Gallary</h1>
+      </div>
     </div>
   );
 }
