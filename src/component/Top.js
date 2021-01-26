@@ -7,8 +7,7 @@ function Top() {
 
   useEffect(() => {
     t1.from(".top_h1", {
-      duration: 3,
-      scale: 10,
+      duration: 2,
       ease: "elastic.out(1, 0.3)",
       y: "-200px",
       opacity: 0,

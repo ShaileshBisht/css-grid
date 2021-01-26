@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./CssGrid.css";
+import gsap from "gsap";
 import img1 from "../assets/images/img1.jpg";
 import img2 from "../assets/images/img2.jpg";
 import img3 from "../assets/images/img3.jpg";
@@ -14,6 +15,20 @@ import img11 from "../assets/images/img11.jpg";
 import img12 from "../assets/images/img12.jpg";
 
 function CssGrid() {
+  useEffect(() => {
+    gsap.from(".img_container", {
+      duration: 5,
+      delay: 2,
+      opacity: 0,
+      stagger: {
+        each: 0.5,
+        from: "start",
+      },
+      ease: "elastic.out(1, 0.3)",
+      x: "200px",
+    });
+  }, []);
+
   return (
     <div className="CssGrid">
       <div className="CssGrid_img">
