@@ -5,7 +5,7 @@ function Top() {
   return (
     <div className="top">
       <div className="top_title">
-        <h1>Grid Gallary</h1>
+        <h1 className="top_h1">Grid Gallery</h1>
       </div>
     </div>
   );

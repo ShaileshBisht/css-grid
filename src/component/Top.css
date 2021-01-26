@@ -4,7 +4,12 @@
   font-family: "Pacifico", cursive;
   text-align: center;
   margin: 40px 0px;
-  font-size: larger;
+  font-size: 1rem;
   letter-spacing: 10px;
-  border: 1px solid black;
+}
+
+.top_h1 {
+  text-decoration: underline;
+  padding: 10px;
+  margin: auto;
 }
