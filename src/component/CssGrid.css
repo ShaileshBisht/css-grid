@@ -8,6 +8,18 @@
   margin: auto;
 }
 
+.img_container {
+  overflow: hidden;
+}
+
+.imgg {
+  transition: 0.5s ease-in-out;
+}
+
+.imgg:hover {
+  transform: scale(1.2);
+}
+
 img {
   width: 100%;
   height: 100%;
